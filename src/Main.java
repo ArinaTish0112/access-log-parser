@@ -6,11 +6,9 @@ public class Main {
         int number1 = new Scanner(System.in).nextInt();
         System.out.println("Введите второе число: ");
         int number2 = new Scanner(System.in).nextInt();
-        double number3 = number1;
-        double number4 = number2;
         System.out.println("Сумма чисел=" + (number1 + number2));
         System.out.println("Разность чисел=" + (number1 - number2));
         System.out.println("Произведение чисел=" + (number1 * number2));
-        System.out.println("Частное чисел=" + (number3 / number4));
+        System.out.println("Частное чисел=" + ((double) number1 / number2));
     }
 }
